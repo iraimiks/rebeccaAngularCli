@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.bg {
+
+    background-image: url("assets/annie-spratt-695510-unsplash.jpg");
+    background-color: #f5dae1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

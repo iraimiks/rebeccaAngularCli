@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+.leftMargine{
+    margin: 5px;
+}
+.section-back{
+    background-color: rgba(245, 245, 220, 0.616);
+    width: 400px;
+}
+.topMargine{
+    margin: 5px;
+}
+.imgProperty{
+    height: 160px;
+    width: 80%;
+}
+.btnStylingDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fontfortext{
+    font-family: 'Barlow', sans-serif;
+}

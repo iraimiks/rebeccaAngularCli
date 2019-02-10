@@ -1,0 +1,12 @@
+<button  (click)="open(content)" class="btn btn-default orange-circle-button position" href="">Pieraksts<span class="orange-circle-greater-than"></span></button>
+
+<ng-template #content let-c="close" let-dism="dismiss" id="dada">
+        <div class="modal-header text-center">         
+          <button type="button" class="close" aria-label="Close" (click)="dism('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <app-form></app-form>
+        </div>
+</ng-template>

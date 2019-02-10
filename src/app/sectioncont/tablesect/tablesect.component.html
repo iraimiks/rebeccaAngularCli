@@ -1,0 +1,52 @@
+
+    <div class="btnStylingDiv">
+        <button type="button" class="btn btn-secondary btnColor btn-lg btn-block" (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed" aria-controls="mantable2">
+        Pedikīrs
+        </button>
+    </div>
+    
+    <table class="table collapse" id="mantable2" [ngbCollapse]="isCollapsed">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Pakalpojums</th>
+              <th scope="col">Cena</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Klasiskais pedikīrs</td>
+              <td>17 euro</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Klasiskais pedikīrs ar gēllaku</td>
+              <td>23 euro</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>R - pedikīrs</td>
+              <td>10 euro</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>R - pedikīrs ar gēllaku</td>
+              <td>16 euro</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Gēllakas uzklāšana</td>
+              <td>6 euro</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Gēllakas noņemšana</td>
+              <td>2 euro</td>
+            </tr>
+          </tbody>
+    </table>
+    <div class="imgBox text-center">
+        <img src="../../../assets/pedicure_img.jpg" class="rounded imgProperty" >
+    </div>

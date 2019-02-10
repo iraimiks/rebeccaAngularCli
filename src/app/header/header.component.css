@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Allura');
+
+.presentation{
+    height: 220px;
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+    padding-top: 3%;
+}
+.logoStyleCenter{
+    font-size: 7em;
+    margin-top: 50px;
+    font-family: 'Allura', cursive;
+    margin-bottom: 0px;
+
+}
+.fontfortext{
+    font-family: 'Cinzel', serif;
+}
+.section-back{
+    background-color: rgba(245, 245, 220, 0.616);
+    
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}

@@ -1,0 +1,41 @@
+<div class="btnStylingDiv"> 
+    <button type="button" class="btn btn-secondary btnColor btn-lg btn-block" (click)="isCollapsed = !isCollapsed"
+    [attr.aria-expanded]="!isCollapsed" aria-controls="mantable4">
+    Uzacu korekcija
+    </button>
+</div>
+
+<table class="table"  id="mantable4" [ngbCollapse]="isCollapsed">
+    <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Pakalpojums</th>
+          <th scope="col">Cena</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Uzaču korekcija</td>
+          <td>1 euro</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Uzaču krāsošana</td>
+          <td>2 euro</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Skroptstu krāsošana</td>
+          <td>2 euro</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Uzaču krāsošana ar hennu</td>
+          <td>15 euro</td>
+        </tr>
+        </tbody>
+</table>
+<div class="imgBox text-center">
+    <img src="../../../assets/acukorekcija.jpg" class="rounded imgProperty" >
+</div>

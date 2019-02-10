@@ -1,0 +1,16 @@
+.imgBox{
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+}
+.imgProperty{
+    height: 180px;
+    width: 80%;
+}
+.btnStylingDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btnColor{
+    background-color: #2e345a81;
+   }

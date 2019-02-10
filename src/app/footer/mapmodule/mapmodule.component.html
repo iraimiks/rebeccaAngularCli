@@ -1,0 +1,13 @@
+<button  (click)="open(content)" class="btn btn-default orange-circle-button position" href="">Skolas iela 26, Ludza<img src="../../../assets/baseline-place-24px.svg"></button>
+
+<ng-template #content let-c="close" let-dism="dismiss">
+        <div class="modal-header text-center">
+          <h4 class="modal-title" id="modal-basic-title">Skolas iela 26, Ludza</h4>
+          <button type="button" class="close" aria-label="Close" (click)="dism('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.547899050913!2d27.716782615602032!3d56.544426080772475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c22543eb914d51%3A0x26eaf6f0f2b1ff05!2sSkolas+iela+26%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701!5e0!3m2!1slv!2slv!4v1548871866499" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+</ng-template>

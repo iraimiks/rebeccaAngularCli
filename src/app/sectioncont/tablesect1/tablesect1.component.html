@@ -1,0 +1,72 @@
+<div class="btnStylingDiv">
+  <button type="button" class="btn btn-secondary btnColor btn-lg btn-block" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+    aria-controls="mantable3">
+    Manikīrs
+    </button>
+</div>
+<div class="table-responsive-sm">
+  <table class="table table-striped collapse" id="mantable3" [ngbCollapse]="isCollapsed">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Pakalpojums</th>
+        <th scope="col">Cena</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Klasiskais manikīrs</td>
+        <td>6 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Klasiskais manikīrs + gēllaka</td>
+        <td>12 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Gēllakas noņemšana</td>
+        <td>2 - 3 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Lakas noņemšana</td>
+        <td>1 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Gēla nagu veidošana</td>
+        <td>25 euro </td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Gēla nagu korekcija</td>
+        <td>20 euro </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>Gēla nagu nostiprināšana ar gēlu</td>
+        <td>16 euro </td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td>Gēla nagu noņemšana</td>
+        <td>6 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td>(P)Lakas pārklāšana</td>
+        <td>3 euro</td>
+      </tr>
+      <tr>
+        <th scope="row">11</th>
+        <td>Gēllakas uzklāšana</td>
+        <td>6 euro</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="imgBox text-center">
+    <img src="../../../assets/manicure_img.jpg" class="rounded imgProperty">
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+  <div class="container">
+    <button class="navbar-toggler" type="button" [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed"
+      data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item border-bottom border-white">
+          <button class="btn btn-default styleNavText"><a href="#sectionNav" class="styleNavText2">Cenas</a></button>  
+        </li>
+        <li class="nav-item border-bottom border-white">
+            <button  (click)="open(content2)" class="btn btn-default styleNavText" href="">Kontakti</button>
+        </li>
+      </ul>
+      <a class="navbar-brand text-right" style="width: 25px" href=""><img src="../../../assets/instagram.svg"></a>
+      <a class="navbar-brand text-right" style="width: 25px"  href=""><img src="../../../assets/facebook.svg"></a>
+      <a class="navbar-brand text-right" href="tel:+37128455244">+371 284-55-244</a>
+    </div>
+  </div>
+</nav>
+<ng-template  #content2 let-c="close" let-dism="dismiss" id="dada">
+    <div class="modal-header text-center">         
+      <button  class="close" aria-label="Close" (click)="dism('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <div class="card" style="width: 100%;">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Skaistum kopšanas meistare:</h5>
+                  <h5 class="card-title">Rebeka Mikijanska</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">E-pasts: <a href="mailto:rebeccbeauty@gmail.com">rebeccbeauty@gmail.com</a></li>
+                    <li class="list-group-item"><a href="tel:+37128455244">+371 2 8455244</a></li>
+                    <li class="list-group-item">
+                      <app-mapmodule></app-mapmodule>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</ng-template>
